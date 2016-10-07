@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Secreto Llanero</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css ">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Header-->
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+						<span class="sr-only">Desplegar/ocultar</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="contacto.html" class="navbar-brand">Secreto Llanero</a>
+				</div>
+				<!--Inicia Menu-->
+				<div class="collapse navbar-collapse" id="navegacion-fm">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Inicio</a></li>
+						<li class="dropdown">	
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+								Servicios <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" >
+								<li><a href="servicios.html#servicio1">Servicio 1</a></li>
+								<li><a href="servicios.html#servicio2">Servicio 2</a></li>
+								<li><a href="servicios.html#servicio3">Servicio 3</a></li>
+								<li><a href="servicios.html#servicio4">Servicio 4</a></li>
+							</ul>
+						</li>
+						<li class=""><a href="terminos.html">Terminos y politicas</a></li>
+						<li class=""><a href="contacto.html">Contacto</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="contacto.html"><img src="images/whatsapp.png" width="50" height="50"> Whatsapp</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Jumbotron-->
+	<section class="jumbotron" style="background:#7b241c ; color:#fff; padding:20px 0;">
+		<div class="container">
+		<br><br><br>
+			<h1 class="titulo-blog">Nombre pagina</h1>
+			<p>Especialistas en trabajos a distancia 
+			<h4><span class="glyphicon glyphicon-envelope"></span> correo electronico  
+			<span class="glyphicon glyphicon-phone"></span> Celular  
+			<img src="images/whatsapp.png" width="20" height="20"> Whatsapp </h4>
+			</p>
+
+		</div>
+	</section>
+
+	<!-- Slide-->
+	<section>
+		<div class="container">
+			<br>
+			<div class="col-md-12">
+				<div class="carousel slide" id="carousel-1" data-ride="carousel">
+					<!--indicadores-->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-2" data-slide-to="1"></li>
+						<li data-target="#carousel-3" data-slide-to="2"></li>
+						<li data-target="#carousel-4" data-slide-to="3"></li>
+					</ol>
+
+					<!--Contenedor Slide-->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="http://lorempixel.com/1200/400/" class="img-responsive" alt="">
+							<div class="carousel-caption hidden-xs hidden-sm">
+								<h3>Tirulo imagen 1</h3>
+								<p>Descripcion imagen 1.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="http://lorempixel.com/1200/400/city/2" class="img-responsive" alt="">
+							<div class="carousel-caption hidden-xs hidden-sm">
+								<h3>Titulo imagen 2</h3>
+								<p>Descripcion imagen 2.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="http://lorempixel.com/1200/400/city/1" class="img-responsive" alt="">
+							<div class="carousel-caption hidden-xs hidden-sm">
+								<h3>Titulo imagen 3</h3>
+								<p>Descripcion imagen 3.</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<img src="http://lorempixel.com/1200/400/city/1" class="img-responsive" alt="">
+							<div class="carousel-caption hidden-xs hidden-sm">
+								<h3>Titulo imagen 4</h3>
+								<p>Descripion imagen 4.</p>
+							</div>
+						</div>
+
+						<!--controles-->
+						<a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hodden="true"></span>
+							<sapn class="sr-only">Anterior</sapn>
+						</a>
+						<a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hodden="true"></span>
+							<sapn class="sr-only">Siguiente</sapn>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contenido-->
+	<section class="main container">
+		<div class="row">
+			<section class="posts col-md-9">
+				<br>
+
+				<article class="post clearfix">
+					<a href="contacto.html" class="thumb pull-left"><img class="img-thumbnail" src="images/html5.png" alt=""></a>
+					<h2 class="post-title">
+						¿Que somos?
+					</h2>
+					<br>
+					<p class="post-ontenido text-justify"><b>Texto descriptivo de la empresa. </b> (Somos una congregacion psiquica de profesionales en ciencias ocultas y magia blanca...) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam excepturi quidem, quaerat dolore. Eum eveniet pariatur, esse fugiat, harum in voluptas! Dolorem quas harum, animi quo maiores fuga. Maxime at perspiciatis quod accusantium incidunt dolor velit non. Itaque eveniet placeat quod! Sint ratione similique, et iure, quae facere quas odio beatae ad officiis, vero adipisci. Ea quidem, labore ipsa ad at, eius sapiente, molestiae nisi officiis molestias eligendi et illum mollitia hic quod natus vitae? Amet libero sequi consectetur, veniam deserunt dolorem, vitae ex consequuntur officiis facilis tempora molestiae sit perspiciatis ipsa saepe sed, pariatur. Eligendi, debitis ut nesciunt. ipsum dolor sit amet, consectetur adipisicing elit. Impedit ullam corrupti labore, tempora amet voluptatum numquam fuga inventore, odit dolore consequatur quia ut, non quidem! ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus quam harum magni eum assumenda error quaerat nemo quas dolorem! ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+				</article>
+
+				<article class="post clearfix">
+					<a href="contacto.html" class="thumb pull-left"><img class="img-thumbnail" src="images/css3.png" alt=""></a>
+					<h2 class="post-title">
+						¿Experiencia?
+					</h2>
+					<br>
+					<p class="post-ontenido text-justify"><b>Texto descriptivo de la empresa. </b> (Soy un Brujo con mas de 37 años de experiencia donde me he enfocado en mejorar la calidad de vida de muchas personas, en los cuales he restaurado hogares, curado enfermedades conocidas y desconocidas y ayudado a mejorar la situación económica de miles de personas a través de rituales espirituales, amarres, rezos y conjuros.) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam excepturi quidem, quaerat dolore. Eum eveniet pariatur, esse fugiat, harum in voluptas! Dolorem quas harum, animi quo maiores fuga. Maxime at perspiciatis quod accusantium incidunt dolor velit non. Itaque eveniet placeat quod! Sint ratione similique, et iure, quae facere quas odio beatae ad officiis, vero adipisci. Ea quidem, labore ipsa ad at, eius sapiente, molestiae nisi officiis molestias eligendi et illum mollitia hic quod natus vitae? Amet libero sequi consectetur, veniam deserunt dolorem, vitae ex consequuntur officiis facilis tempora molestiae sit perspiciatis ipsa saepe sed, pariatur. Eligendi, debitis ut nesciunt. ipsum dolor sit amet, consectetur adipisicing elit. Impedit ullam corrupti labore, tempora amet voluptatum numquam fuga inventore, odit dolore consequatur quia ut, non quidem! ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+				</article>
+
+				<article class="post clearfix">
+					<a href="contacto.html" class="thumb pull-left"><img class="img-thumbnail" src="images/js.png" alt=""></a>
+					<h2 class="post-title">
+						¿Trabajos?
+					</h2>
+					<br>
+					<p class="post-ontenido text-justify"><b>Que se ha hecho en la empresa. </b> (curamos brujerías, hechicerías mal de ojo, salamientos, maleficios, unimos parejas que han fracasado en la relación. Neutralizamos su enemigo y alejamos sin hacerle daño.) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laboriosam excepturi quidem, quaerat dolore. Eum eveniet pariatur, esse fugiat, harum in voluptas! Dolorem quas harum, animi quo maiores fuga. Maxime at perspiciatis quod accusantium incidunt dolor velit non. Itaque eveniet placeat quod! Sint ratione similique, et iure, quae facere quas odio beatae ad officiis, vero adipisci. Ea quidem, labore ipsa ad at, eius sapiente, molestiae nisi officiis molestias eligendi et illum mollitia hic quod natus vitae? Amet libero sequi consectetur, veniam deserunt dolorem, vitae ex consequuntur officiis facilis tempora molestiae sit perspiciatis ipsa saepe sed, pariatur. Eligendi, debitis ut nesciunt. ipsum dolor sit amet, consectetur adipisicing elit. Impedit ullam corrupti labore, tempora amet voluptatum numquam fuga inventore, odit dolore consequatur quia ut, non quidem! ipsum dolor sit amet, consectetur adipisicing elit. Amet temporibus quam harum magni eum assumenda error quaerat nemo quas dolorem! ipsum dolor sit amet, consectetur adipisicing elit. Debitis quam rem odit nesciunt iusto necessitatibus quas, error consequuntur fugit, magnam laborum magni deserunt quibusdam accusantium eos, labore dolorum, nihil saepe. ipsum dolor sit amet, consectetur adipisicing elit. Neque maxime ab fugit praesentium, explicabo provident cum. </p>
+
+				</article>
+			</section>
+		</div>
+	</section>
+
+<footer>
+	<div class="container">
+		<br>
+		<div class="row">
+			<div class="col-md-11">
+				<div class="alert alert-warning">
+					<strong>Advertencia!</strong> 
+					El acceso a este sitio web solo esta permitido para mayores de edad +18 años. Al acceder a el usted confirma que cumple esta restriccion.<br>
+					Los servicios ofrecidos en este sitio son adquiridos a consideracion de los interesados.<br>
+					Estos servicios son ofrecidos con fines de entretenimiento y ayuda personal. <br>
+					Ninguno de los servicios sustituyen la atencion medica, legal, financiera, psicologica ni psiquiatrica.<br>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<p></p>
+			</div>
+		</div>
+		<br>
+	</div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
